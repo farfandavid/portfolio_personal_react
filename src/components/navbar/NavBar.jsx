@@ -1,9 +1,21 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './styles/NavBar.css'
 
 function NavBar() {
 
+  /* const goToSection = (id) => {
+    var section = document.getElementById(id);
+    var sectionTop = section.offsetTop;
+    var windowHeight = window.innerHeight;
+
+    window.scrollTo({
+      top: sectionTop - (windowHeight / 3),
+      behavior: 'smooth'
+    });
+  } */
+
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-transparent">
+    <nav className="navbar navbar-expand-md navbar-dark fixed-top">
       <div className="container-fluid">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +27,7 @@ function NavBar() {
           </a>
           <ul className="navbar-nav d-flex justify-content-center align-items-center">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#about-me">About me</a>
+              <a className="nav-link" aria-current="page" href='#about-me' >About me</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#project">Projects</a>

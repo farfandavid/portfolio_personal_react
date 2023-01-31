@@ -1,70 +1,44 @@
-import './styles/Projects.css'
+import './styles/Projects.css';
+import { useEffect, useState } from 'react';
+import ProjectCard from './components/ProjectCard';
+
+function ProjectsData() {
+  const [projectsData, setProjectsData] = useState([]);
+
+  useEffect(() => {
+    fetch("json/projects.json")
+      .then(response => response.json())
+      .then(datos => {
+        setProjectsData(datos)
+      })
+  }, []);
+  return projectsData;
+}
+
 
 function Projects() {
+
+  const projectsData = ProjectsData();
+
   return (
-    <section id="project" class="project-recent section-light d-flex flex-column">
-      <h2 class="section-title rainbow-bg">My Recent Projects</h2>
-      <h3 class="section-description">These are some projects that I have created recently</h3>
+    <section id="project" className="project-recent section-light d-flex flex-column">
+      <h2 className="section-title rainbow-bg">My Recent Projects</h2>
+      <h3 className="section-description">These are some projects that I have created recently</h3>
       {/* <!-- Project Gallery --> */}
-      <div class="container text-center project-container">
-        <div class="row">
+      <div className="container text-center project-container">
+        <div className="row">
           {/* <!-- Proyecto1 --> */}
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="project">
-              <img src="./image/proyecto1.png" alt="Project 1" />
-              <div class="overlay">
-                <p>Proyecto 1</p>
-                <div class="icons-container">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>
-                  </a>
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-laptop"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <!-- Proyecto2 --> */}
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="project">
-              <img src="./image/proyecto2.png" alt="Project 2" />
-              <div class="overlay">
-                <p>Proyecto 2</p>
-                <div class="icons-container">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>
-                  </a>
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-laptop"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* <!-- Proyecto3 --> */}
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="project">
-              <img src="./image/proyecto3.png" alt="Project 3" />
-              <div class="overlay">
-                <p>Proyecto 3</p>
-                <div class="icons-container">
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github"></i>
-                  </a>
-                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-laptop"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          {
+            projectsData.map(item => (
+              <ProjectCard image={item.image} name={item.name} linkDeploy={item.linkDeploy} linkGitHub={item.linkGitHub} key={item.id} ></ProjectCard>
+            ))
+          }
         </div>
       </div>
       <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-        <button type="button" class="btn btn-info">
+        <button type="button" className="btn btn-info">
           View More
-          <i class="bi bi-arrow-right-circle-fill"></i>
+          <i className="bi bi-arrow-right-circle-fill"></i>
         </button>
       </a>
 

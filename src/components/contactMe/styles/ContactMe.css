@@ -1,0 +1,46 @@
+.contact .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contact .rainbow {
+  border-radius: 50px;
+}
+
+.contact .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.contact .section-description {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contact button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact button:hover {
+  animation: spin-bg 10s infinite linear;
+}
+
+.contact button:hover i {
+  animation: spin-bg 10s infinite linear;
+}
+
+.contact button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}

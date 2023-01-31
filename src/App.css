@@ -44,15 +44,37 @@
 
 /* Rainbow Background*/
 
+
+.ln-div {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .section-title {
   font-size: xx-large;
   border-radius: 5px;
   padding: 5px;
 }
 
+.section-description {
+  font-size: x-large;
+  text-align: center;
+}
+
+
 .rainbow-bg {
   color: whitesmoke;
   animation: spin-bg 15s infinite linear;
+}
+
+@media screen and (max-width: 490px) {
+  .section-title {
+    font-size: x-large;
+  }
+
+  .section-description {
+    font-size: large;
+  }
 }
 
 @keyframes spin-bg {
@@ -120,5 +142,41 @@
     box-shadow:
       0 0 3px rgb(255, 223, 210),
       0 0 5px rgb(255, 0, 0);
+  }
+}
+
+@keyframes spin-color {
+  0% {
+    color: rgb(255, 0, 0);
+    background-image: radial-gradient(circle at center, rgba(255, 0, 0, 0.2) 1%, rgba(0, 0, 0, 0) 90%);
+  }
+
+  16% {
+
+    color: rgb(150, 150, 0);
+    background-image: radial-gradient(circle at center, rgba(150, 150, 0, 0.2) 1%, rgba(0, 0, 0, 0) 90%);
+  }
+
+  33% {
+
+    color: #0fa;
+    background-image: radial-gradient(circle at center, rgba(0, 255, 170, 0.2) 1%, rgba(0, 0, 0, 0) 90%);
+  }
+
+  49% {
+
+    color: rgb(0, 150, 150);
+    background-image: radial-gradient(circle at center, rgba(0, 150, 150, 0.2) 1%, rgba(0, 0, 0, 0) 90%);
+  }
+
+  66% {
+
+    color: rgb(0, 60, 255);
+    background-image: radial-gradient(circle at center, rgba(0, 60, 255, 0.2) 1%, rgba(0, 0, 0, 0) 90%);
+  }
+
+  100% {
+    color: rgb(255, 0, 0);
+    background-image: radial-gradient(circle at center, rgba(255, 0, 0, 0.2) 1%, rgba(0, 0, 0, 0) 90%);
   }
 }

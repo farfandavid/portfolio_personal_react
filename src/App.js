@@ -1,8 +1,10 @@
 import './App.css';
 import AboutMe from './components/aboutMe/AboutMe';
+import ContactMe from './components/contactMe/ContactMe';
 import Hero from './components/hero/Hero';
 import NavBar from './components/navbar/NavBar';
 import Projects from './components/projects/Projects';
+import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
   return (
@@ -11,8 +13,9 @@ function App() {
       <Hero></Hero>
       <div className='ln-div rainbow'></div>
       <AboutMe></AboutMe>
-      <div className='ln-div rainbow'></div>
       <Projects></Projects>
+      <Testimonials></Testimonials>
+      <ContactMe></ContactMe>
       {/*<div className='ln-div rainbow'></div> */}
     </>
   );

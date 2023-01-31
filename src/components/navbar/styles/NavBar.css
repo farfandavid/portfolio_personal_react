@@ -1,0 +1,58 @@
+/* .navbar {
+  display: flex;
+  height: 10vh;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 5px;
+}
+
+.links-nav>p {
+  margin: auto 10px;
+}
+
+.download-cv {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cursorPointer {
+  cursor: pointer;
+} */
+
+.navbar button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px solid white;
+}
+
+.navbar button:hover {
+  background-color: transparent;
+  animation: spin 10s infinite linear;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}

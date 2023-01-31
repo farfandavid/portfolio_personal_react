@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+/* .MainPage {
+  display: flex;
+  margin: 0 10%;
+  flex: 1 1 auto;
+  height: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Welcome {
+  font-size: 1.3rem;
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MyName {
+  font-size: 3rem;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.MyTitle {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.About {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+  padding: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+.RedesSociales {
+  margin-top: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.ProfilePic {
+  width: 50%;
+  padding: 5%;
+}
+
+.ln-div {
+  margin-top: 12%;
+} */
+
+/* Rainbow Background*/
+
+.rainbow-bg {
+  color: whitesmoke;
+  animation: spin-bg 15s infinite linear;
+}
+
+@keyframes spin-bg {
+  0% {
+    color: whitesmoke;
+    background-color: rgb(255, 0, 0);
   }
-  to {
-    transform: rotate(360deg);
+
+  16% {
+    color: #b5b4bb;
+    background-color: rgb(150, 150, 0);
+  }
+
+  33% {
+    color: #151320;
+    background-color: #0fa;
+  }
+
+  49% {
+    color: #b5b4bb;
+    background-color: rgb(0, 150, 150);
+  }
+
+  66% {
+    color: whitesmoke;
+    background-color: rgb(0, 60, 255);
+  }
+
+  100% {
+    background-color: rgb(255, 0, 0);
+  }
+}
+
+/* Rainbow Border*/
+.rainbow {
+  color: whitesmoke;
+  animation: spin 10s infinite linear;
+
+}
+
+@keyframes spin {
+  0% {
+    border: 2px solid red;
+    box-shadow:
+      0 0 3px rgb(255, 223, 210),
+      0 0 5px rgb(255, 0, 0);
+  }
+
+  33% {
+    border: 2px solid green;
+    box-shadow:
+      0 0 3px rgb(210, 255, 225),
+      0 0 5px #0fa;
+  }
+
+  66% {
+    border: 2px solid blue;
+    box-shadow:
+      0 0 3px rgb(215, 210, 255),
+      0 0 5px rgb(0, 60, 255);
+  }
+
+  100% {
+    border: 2px solid red;
+    box-shadow:
+      0 0 3px rgb(255, 223, 210),
+      0 0 5px rgb(255, 0, 0);
   }
 }

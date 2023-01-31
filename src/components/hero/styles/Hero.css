@@ -2,10 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 10%;
-  flex: 1 1 auto;
-  height: auto;
   color: white;
+  height: 88vh;
 }
 
 .hero-info {
@@ -33,18 +31,18 @@
 
 .hero-image-developer {
 
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
 
 }
 
 .hero-social-media {
-  margin-top: 20%;
+  margin-top: 10px;
   text-transform: uppercase;
 }
 
 .hero-social-media a i {
-  margin: 0 5px;
+  margin: 0 10px;
   font-size: 1.5rem;
   color: white;
 }

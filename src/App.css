@@ -44,6 +44,12 @@
 
 /* Rainbow Background*/
 
+.section-title {
+  font-size: xx-large;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 .rainbow-bg {
   color: whitesmoke;
   animation: spin-bg 15s infinite linear;

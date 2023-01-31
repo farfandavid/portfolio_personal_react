@@ -1,0 +1,51 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-container .section-title {
+  width: 50%;
+  text-align: center;
+}
+
+.about-me-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 300px;
+  width: 35%;
+  margin-top: 50px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100%, 100%));
+  gap: 0px 10px;
+  margin: 20px 0px 0px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.skills-list li {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .skills-list {
+    grid-template-columns: repeat(1, minmax(100%, 100%));
+  }
+}

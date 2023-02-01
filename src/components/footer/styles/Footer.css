@@ -1,0 +1,58 @@
+footer {
+  min-height: 500px;
+  color: white;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-text {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.icons-social-media a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+  animation: spin-bg 10s infinite linear;
+}
+
+.icons-social-media i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.icons-social-media a:hover {
+  background-color: transparent;
+  border: 2px solid rgb(13, 110, 253);
+  animation: spin 10s infinite linear;
+
+}
+
+.icons-social-media a:hover i {
+  color: white;
+
+}
+
+.copyright {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import './styles/NavBar.css'
+import iconWhite from '../../images/icono-blanco.svg';
 
 function NavBar() {
 
@@ -22,8 +23,8 @@ function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbar-toggler">
-          <a className="navbar-brand" href="#about-me" >
-            <img src="./image/icon.png" width="50" alt="logo" />
+          <a className="navbar-brand" href="#" >
+            <img src={iconWhite} width="50" alt="logo" />
           </a>
           <ul className="navbar-nav d-flex justify-content-center align-items-center">
             <li className="nav-item">

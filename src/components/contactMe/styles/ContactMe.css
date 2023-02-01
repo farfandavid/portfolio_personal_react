@@ -29,18 +29,23 @@
   margin: 10px;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
-}
-
-.contact button:hover {
-  animation: spin-bg 10s infinite linear;
-}
-
-.contact button:hover i {
   animation: spin-bg 10s infinite linear;
 }
 
 .contact button i {
   color: white;
   font-size: 1.3rem;
+  animation: spin-bg-color 10s infinite linear;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact button:hover {
+  color: white;
+  animation: spin 10s infinite linear;
+}
+
+.contact button:hover i {
+  color: white;
+  animation: none;
   transition: all 0.2s ease-in-out;
 }

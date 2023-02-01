@@ -1,6 +1,7 @@
 import './App.css';
 import AboutMe from './components/aboutMe/AboutMe';
 import ContactMe from './components/contactMe/ContactMe';
+import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
 import NavBar from './components/navbar/NavBar';
 import Projects from './components/projects/Projects';
@@ -16,6 +17,7 @@ function App() {
       <Projects></Projects>
       <Testimonials></Testimonials>
       <ContactMe></ContactMe>
+      <Footer></Footer>
       {/*<div className='ln-div rainbow'></div> */}
     </>
   );

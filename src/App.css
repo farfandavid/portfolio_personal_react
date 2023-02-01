@@ -108,6 +108,33 @@
   }
 }
 
+@keyframes spin-bg-color {
+  0% {
+    color: whitesmoke;
+  }
+
+  16% {
+    color: #b5b4bb;
+  }
+
+  33% {
+    color: #151320;
+  }
+
+  49% {
+    color: #b5b4bb;
+  }
+
+  66% {
+    color: whitesmoke;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+
 /* Rainbow Border*/
 .rainbow {
   color: whitesmoke;

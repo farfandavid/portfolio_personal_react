@@ -48,6 +48,13 @@
   color: white;
 }
 
+.hero-social-media a i:hover {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: white;
+  animation: spin-color 10s infinite linear;
+}
+
 @media screen and (max-width: 767px) {
   .hero-pic {
     display: none;

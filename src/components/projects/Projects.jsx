@@ -36,7 +36,7 @@ function Projects() {
         </div>
       </div>
       <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-        <button type="button" className="btn btn-info">
+        <button type="button" className="btn rainbow-bg">
           View More
           <i className="bi bi-arrow-right-circle-fill"></i>
         </button>

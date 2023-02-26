@@ -18,6 +18,7 @@ function App() {
       <Testimonials></Testimonials>
       <ContactMe></ContactMe>
       <Footer></Footer>
+
       {/*<div className='ln-div rainbow'></div> */}
     </>
   );

@@ -53,13 +53,6 @@
   position: relative;
 }
 
-.project:hover img {
-  opacity: 0.2;
-}
-
-.project:hover .overlay {
-  opacity: 1;
-}
 
 .overlay .icons-container {
   display: flex;
@@ -72,8 +65,37 @@
   margin: 10px;
 }
 
-.overlay i:hover {
-  animation: spin-color 10s infinite linear;
-  background-color: radial-gradient(circle at center, rgba(255, 0, 0, 0.3) 1%, rgba(0, 0, 0, 0) 90%);
-  background-size: cover;
+
+
+@media (pointer:fine) {
+
+  .project:hover img {
+    opacity: 0.2;
+  }
+
+  .project:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay i:hover {
+    animation: spin-color 10s infinite linear;
+    background-color: radial-gradient(circle at center, rgba(255, 0, 0, 0.3) 1%, rgba(0, 0, 0, 0) 90%);
+    background-size: cover;
+  }
+}
+
+@media (pointer: coarse) {
+  .project img {
+    opacity: 0.2;
+  }
+
+  .overlay i:hover {
+    animation: spin-color 10s infinite linear;
+    background-color: radial-gradient(circle at center, rgba(255, 0, 0, 0.3) 1%, rgba(0, 0, 0, 0) 90%);
+    background-size: cover;
+  }
+
+  .overlay {
+    opacity: 1;
+  }
 }

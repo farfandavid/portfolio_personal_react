@@ -40,7 +40,9 @@ function NavBar() {
               <a className="nav-link" href="#contact">Contact</a>
             </li>
             <li className='nav-item'>
-              <button className='rainbow-bg'>Download CV</button>
+              <a href='./documents/cv_farfandavid.pdf' download='cv_farfandavid.pdf' >
+                <button className='rainbow-bg'>Download CV</button>
+              </a>
             </li>
           </ul>
         </div>

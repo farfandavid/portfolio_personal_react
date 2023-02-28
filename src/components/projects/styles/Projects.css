@@ -56,7 +56,7 @@
 
 .overlay .icons-container {
   display: flex;
-
+  justify-content: center;
 }
 
 .overlay i {
@@ -65,6 +65,11 @@
   margin: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .overlay i {
+    font-size: 45px;
+  }
+}
 
 
 @media (pointer:fine) {

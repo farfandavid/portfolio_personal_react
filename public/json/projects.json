@@ -1,44 +1,44 @@
 [
     {
         "id": "project-1",
-        "name": "Project 1",
+        "name": "Arirock Portfolio",
         "linkGitHub": "https://github.com/",
         "linkDeploy": "https://www.google.com",
-        "image": "./image/proyecto1.png"
+        "image": "./image/projects/arirock_page.png"
     },
     {
         "id": "project-2",
-        "name": "Project 2",
-        "linkGitHub": "https://github.com/",
+        "name": "Coming Soon",
+        "linkGitHub": "",
         "linkDeploy": "https://www.google.com",
-        "image": "./image/proyecto2.png"
+        "image": "./image/projects/proyecto2.png"
     },
     {
         "id": "project-3",
-        "name": "Project 3",
-        "linkGitHub": "https://github.com/",
+        "name": "Coming Soon",
+        "linkGitHub": "",
         "linkDeploy": "https://www.google.com",
-        "image": "./image/proyecto3.png"
+        "image": "./image/projects/proyecto3.png"
     },
     {
         "id": "project-4",
-        "name": "Project 4",
-        "linkGitHub": "https://github.com/",
+        "name": "Coming Soon",
+        "linkGitHub": "",
         "linkDeploy": "https://www.google.com",
-        "image": "./image/proyecto4.png"
+        "image": "./image/projects/proyecto4.png"
     },
     {
         "id": "project-5",
-        "name": "Project 5",
-        "linkGitHub": "https://github.com/",
+        "name": "Coming Soon",
+        "linkGitHub": "",
         "linkDeploy": "https://www.google.com",
-        "image": "./image/proyecto5.png"
+        "image": "./image/projects/proyecto5.png"
     },
     {
         "id": "project-6",
-        "name": "Project 6",
-        "linkGitHub": "https://github.com/",
+        "name": "Coming Soon",
+        "linkGitHub": "",
         "linkDeploy": "https://www.google.com",
-        "image": "./image/proyecto6.png"
+        "image": "./image/projects/proyecto6.png"
     }
 ]

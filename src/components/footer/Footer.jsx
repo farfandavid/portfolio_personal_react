@@ -10,14 +10,14 @@ function Footer() {
         Let's create a project together.
       </p>
       <div className="icons-social-media d-flex flex-wrap align-items-center justify-content-center">
-        <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer">
-          <i className="bi bi-twitter"></i>
+        <a href="https://github.com/farfandavid/" target="_blank" rel="noopener noreferrer">
+          <i className="bi bi-github"></i>
         </a>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-          <i className="bi bi-facebook"></i>
+        <a href="https://www.linkedin.com/in/david-dante-farfan/" target="_blank" rel="noopener noreferrer">
+          <i className="bi bi-linkedin"></i>
         </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-          <i className="bi bi-instagram"></i>
+        <a href="mailto: farfandavid34@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i className="bi bi-envelope"></i>
         </a>
       </div>
       <div className="copyright">

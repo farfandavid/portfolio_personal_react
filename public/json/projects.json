@@ -2,8 +2,8 @@
     {
         "id": "project-1",
         "name": "Arirock Portfolio",
-        "linkGitHub": "https://github.com/",
-        "linkDeploy": "https://www.google.com",
+        "linkGitHub": "https://github.com/farfandavid/arirock_portfolio",
+        "linkDeploy": "https://farfandavid.github.io/arirock_portfolio/",
         "image": "./image/projects/arirock_page.png"
     },
     {

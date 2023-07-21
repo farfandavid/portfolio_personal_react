@@ -31,7 +31,7 @@ function AboutMe() {
             </a>
             <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
               <i class="devicon-react-original"></i>
-              <h3>React</h3>
+              <h3>ReactJS</h3>
             </a>
             <a href="https://nodejs.org" target="_blank" rel="noreferrer">
               <i class="devicon-nodejs-plain"></i>
